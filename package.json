@@ -1,0 +1,22 @@
+{
+  "name": "grace-giggles-wardrobe",
+  "version": "1.0.0",
+  "description": "A stylish wardrobe for kids, offering a range of fashionable clothing and accessories.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here.'"
+  },
+  "keywords": [
+    "fashion",
+    "kids",
+    "wardrobe",
+    "clothing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

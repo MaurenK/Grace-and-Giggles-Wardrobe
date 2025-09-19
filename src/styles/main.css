@@ -1,0 +1,117 @@
+body {
+    background-color: #fff5f8; /* soft pink */
+    color: #4b2e2b; /* rose gold dark */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8bbd0; /* pastel pink */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e2b7a0; /* rose gold border */
+}
+
+h1, h2, h3, h4 {
+    color: #b76e79; /* rose gold */
+    text-align: center;
+}
+
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dress-item {
+    background: #fff;
+    border: 1px solid #ffd6df;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(183, 110, 121, 0.08);
+    padding: 16px;
+    width: 220px;
+    text-align: center;
+}
+
+.dress-img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #ffd6df;
+    box-shadow: 0 1px 4px rgba(183, 110, 121, 0.10);
+}
+
+.nav-btn {
+    background: #b76e79;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+    border: 1px solid #e2b7a0;
+}
+.nav-btn:hover {
+    background: #ffd6df;
+    color: #b76e79;
+}
+
+footer {
+    background-color: #ffb6d5;
+    color: #4b2e2b;
+    border-top: 2px solid #e2b7a0;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 250px;
+}
+
+.carousel-arrow {
+    background: #b76e79;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background 0.2s;
+}
+
+.carousel-arrow:hover {
+    background: #d63384;
+}
+
+section {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(183, 110, 121, 0.08);
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Different shades for each section */
+section:nth-of-type(1) {
+    background-color: #ffe4ec; /* very light pink */
+}
+
+section:nth-of-type(2) {
+    background-color: #ffd6df; /* light pink */
+}
+
+section:nth-of-type(3) {
+    background-color: #f8bbd0; /* pastel pink */
+}
+
+section:nth-of-type(4) {
+    background-color: #ffb6d5; /* medium pink */
+}
